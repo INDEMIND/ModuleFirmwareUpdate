@@ -18,6 +18,8 @@
     需要重新插拔设备，再次按照“固件更新方法”中的步骤3-4执行，若再次出现此错误提示，重新插拔设备后输入烧录命令再次烧录即可  
 3.出现 “xxx file is not correct!!!”  
     说明固件非indemind提供的固件，或者下载过程中出错，导致文件不完整, 需要重新下载固件(bin文件)  
+4.出现“verify err, download faild”  
+    说明固件下载失败，只需要重新执行 “sudo ./firmburn  binfile” 命令，烧录即可。  
 
 ## 更新日志：
     固件 Firmware_v1.1_5ms.bin :  
