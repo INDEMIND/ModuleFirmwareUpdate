@@ -22,5 +22,9 @@
     说明固件下载失败，只需要重新执行 “sudo ./firmburn  binfile” 命令，烧录即可。  
 
 ## 更新日志：
+    2020年3月31日：
+        添加检查设备支持分辨率和帧率的脚本(frameTest.sh)。
+        使用方法 “./frameTest.sh”
+    
     固件 Firmware_v1.1_5ms.bin :  
         曝光时间5ms 分辨率2x640x400(25fps 50fps 100fps 200fps)  2x1280x800(25fps 50fps 100fps)  
